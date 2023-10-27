@@ -86,6 +86,7 @@ p {
   border-style: outset;
   border-color: rgb(37, 108, 240);
   border-width: 10px;
+  width: 97%; 
 }
 
 li {

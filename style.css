@@ -99,3 +99,9 @@ li {
   margin: 0 auto; 
   width: 97%; 
 }
+
+.tekstboks {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 97%;
+  margin: 0 auto;
+}

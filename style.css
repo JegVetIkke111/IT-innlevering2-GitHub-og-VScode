@@ -89,3 +89,11 @@ p {
   margin: 0;
   width: 97%; 
 }
+
+li {
+  text-align: left;
+  color: white;
+  font-size: 28px;
+  margin: 0;
+  padding: 30px 0 36px 84px;
+}

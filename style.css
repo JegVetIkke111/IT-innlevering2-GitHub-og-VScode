@@ -87,11 +87,14 @@ p {
   border-color: rgb(37, 108, 240);
   border-width: 10px;
   margin: 0;
-  width: 97%; 
 }
 
 li {
   text-align: left;
   color: white;
   font-size: 28px;
+}
+
+.list {
+  width: 97%; 
 }

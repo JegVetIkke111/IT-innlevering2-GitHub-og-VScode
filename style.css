@@ -76,6 +76,12 @@ h1, p {
   font-family: 'Inconsolata', monospace;
 }
 
+p {
+  font-size: 20px;
+  text-align: left !important;
+  font-size: 30px;
+}
+
 .list_frame {
   border-style: outset;
   border-color: rgb(37, 108, 240);

@@ -75,3 +75,10 @@ h1, p {
   color: white;
   font-family: 'Inconsolata', monospace;
 }
+
+.list_frame {
+  border-style: outset;
+  border-color: rgb(37, 108, 240);
+  border-width: 35px;
+  margin: 0;
+}

@@ -83,9 +83,7 @@ p {
 }
 
 .list_frame {
-  border-style: outset;
-  border-color: rgb(37, 108, 240);
-  border-width: 10px;
+  border-left: outset rgb(37, 108, 240) 10px;
 }
 
 li {

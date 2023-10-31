@@ -76,6 +76,10 @@ h1, p {
   font-family: 'Inconsolata', monospace;
 }
 
+.overskrift {
+  font-size: 40px;
+}
+
 p {
   font-size: 20px;
   text-align: left !important;

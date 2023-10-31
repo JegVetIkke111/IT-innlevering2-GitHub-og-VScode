@@ -23,7 +23,7 @@
   }
   
   .topnav a:hover {
-    background-color: #f2f2f2;
+    background-color: rgb(242, 242, 242);
     color: black;
   }
   
@@ -87,7 +87,7 @@ p {
 }
 
 .list_frame {
-  border-left: outset rgb(37, 108, 240) 10px;
+  border-left: outset #f2f2f2; 10px;
 }
 
 li {

@@ -123,10 +123,14 @@ li {
 }
 
 .fremvisningsbilde {
-  height: 300px;
-  width: 1050px;
+  height: 500px;
+  width: 900px;
   border: outset rgb(37, 108, 240) 2px;
 }
 
+.spesialfremvisningsbilde {
+  border: outset rgb(37, 108, 240) 2px;
+
+}
 
 

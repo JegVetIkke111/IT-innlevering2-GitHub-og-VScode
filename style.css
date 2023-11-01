@@ -124,7 +124,7 @@ li {
 
 .fremvisningsbilde {
   height: 650px;
-  width: 900px;
+  width: 100%;
   border: outset rgb(37, 108, 240) 2px;
 }
 

@@ -87,7 +87,7 @@ p {
   line-height: 1.5;
 }
 
-.list_frame {
+.listframe {
   border-left: outset #f2f2f2 10px;
 }
 
@@ -141,6 +141,3 @@ li {
   background-color: rgba(0, 0, 0, 0.5);
   width: 97%;
 }
-
-
-

@@ -135,11 +135,13 @@ li {
 .bunntekst {
   padding-bottom: -10px;
 	padding-top: 10px;
-	text-align: center;
+	text-align: center !important;
 	bottom: 0px;
+  margin: 0 auto;
   font-size: 32px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 97%;
 }
-
 
 
 

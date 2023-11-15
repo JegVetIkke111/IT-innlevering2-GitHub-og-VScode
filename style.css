@@ -54,7 +54,7 @@ body {
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px); /*Legger til striper i bakgrunnen*/
 }
 
-/* Hovedtittel-stilen brukes på overskriften på siden */
+/* Hovedtittel-stilen brukes på den ene og viktigste overskriften på siden */
 .hovedtittel {
   position: absolute; /* Posisjonerer elementet absolutt innenfor sitt nærmeste posisjonerte (ikke statiske) overordnede element */
   font-size: 60px; /* Størrelsen på teksten */
@@ -64,7 +64,7 @@ body {
   transform: translate(-50%, -50%); /* Senterer elementet både horisontalt og vertikalt */
   font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
   white-space: nowrap; /* Forhindrer at teksten brytes over flere linjer */
-  padding: 10px; /* Inneholder padding for topp/bunn og venstre/høyre */
+  padding: 10px; /* Skaper padding rundt hele elementet */
 }
 
 /* H1-stilen brukes på alle H1-elementer på siden */
@@ -157,12 +157,12 @@ li {
 
 /* Høyre-stilen brukes til å plassere elementer til høyre, som i dette tilfellet er bilder */
 .høyre {
-  float: right; /* Flyter elementet til høyre innenfor overordnet element */
+  float: right; /* Flytter elementet til høyre innenfor overordnet element */
 }
 
-/* Venstre-stilen brukes til å plassere elementer til venstre, som i dette tilfellet er bildet */
+/* Venstre-stilen brukes til å plassere elementer til venstre, som i dette tilfellet er bilder */
 .venstre {
-  float: left; /* Flyter elementet til venstre innenfor overordnet element */
+  float: left; /* Flytter elementet til venstre innenfor overordnet element */
 }
 
 /* Lenkestil for lenker med klasse "kildelink" */

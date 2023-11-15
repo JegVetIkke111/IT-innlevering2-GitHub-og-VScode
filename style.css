@@ -125,7 +125,7 @@ li {
 .fremvisningsbilde {
   height: auto;
   width: 1200px;
-  border: outset rgb(37, 108, 240) 4px;
+  border: outset rgb(37, 108, 240) 2px;
 }
 
 .bunntekst {
@@ -138,8 +138,28 @@ li {
   background-color: rgba(0, 0, 0, 0.5);
   width: 97%;
   border: 4px solid rgb(37, 108, 240);; 
-  border-bottom: none; 
+  border-bottom: none !important; 
   border-style: inset;
+}
+
+.høyre {
+  float: right;
+}
+
+.venstre {
+  float: left;
+}
+
+.kildelink:link {
+  color: rgb(37, 108, 240);
+}
+
+.kildelink:visited {
+  color: rgb(37, 108, 240);
+}
+
+.kildelink:hover {
+  color: #f2f2f2;
 }
 
 

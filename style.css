@@ -1,13 +1,12 @@
 /* Topnav-stilen brukes på navigasjonsfeltet øverst på siden */
 .topnav {
   background-color: #204ca4; /* Bakgrunnsfargen til navigasjonsfeltet */
-  overflow: hidden;
-  position: relative;
-  top: 50%;
-  left: 50%;
+  position: relative; /* Posisjonerer elementet relativt til sitt normale sted */
+  top: 50%; /* Plasserer toppen av elementet 50% fra toppen av overordnet element */
+  left: 50%; /* Plasserer venstre side av elementet 50% fra venstre side av overordnet element */
   transform: translateX(-50%); /* Senterer elementet horisontalt */
-  width: 97%;
-  border-width: 10px;
+  width: 97%; /* Bredden på elementet */
+  border-width: 10px; /* Tykkelsen på kanten rundt elementet */
   border-style: outset; /* Stilen på kanten av elementet */
   border-color: rgb(37, 108, 240); /* Fargen på kanten */
 }
@@ -21,7 +20,7 @@
   text-decoration: none;
   font-family: 'Inconsolata', monospace;
   font-size: 20px;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.5px; 
 }
 
 .topnav a:hover {

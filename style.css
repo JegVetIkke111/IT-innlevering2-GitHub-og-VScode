@@ -19,7 +19,7 @@
   text-align: center; /* Sentrerer teksten horisontalt innenfor elementet */
   padding: 14px 16px; /* Inneholder padding for topp/bunn og venstre/høyre */
   text-decoration: none; /* Fjerner understreking og lignende for lenker */
-  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' som skrifttype og generell monospace er fallback font */
   font-size: 20px; /* Størrelsen på teksten */
   letter-spacing: 1.5px; /* Avstanden mellom bokstavene */
 }
@@ -63,8 +63,8 @@ body {
   background-color: rgba(0, 0, 0, 0.842); /* Bakgrunnsfargen til overskriften */
   top: 50%; /* Plasserer toppen av elementet 50% fra toppen av overordnet element */
   left: 50%; /* Plasserer venstre side av elementet 50% fra venstre side av overordnet element */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' som skrifttype og generell monospace er fallback font */
   transform: translate(-50%, -50%); /* Senterer elementet både horisontalt og vertikalt */
-  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
   white-space: nowrap; /* Forhindrer at teksten brytes over flere linjer */
   padding: 10px; /* Skaper padding rundt hele elementet */
 }
@@ -79,7 +79,7 @@ h1 {
 /* Generell stil for H1- og p-elementer */
 h1, p {
   color: white; /* Tekstfargen */
-  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' som skrifttype og generell monospace er fallback font */
 }
 
 /* Overskrift-stilen brukes på elementer med klasse "overskrift" */
@@ -104,7 +104,7 @@ li {
   text-align: left; /* Venstrejustering av teksten innenfor listeelementer */
   color: white; /* Tekstfargen */
   font-size: 28px; /* Størrelsen på teksten */
-  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' som skrifttype og generell monospace er fallback font */
 }
 
 /* List-stilen brukes på elementer med klasse "list" */

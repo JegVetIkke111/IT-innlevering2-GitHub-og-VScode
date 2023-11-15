@@ -2,7 +2,7 @@
 .topnav {
   background-color: #204ca4; /* Bakgrunnsfargen til navigasjonsfeltet */
   position: relative; /* Posisjonerer elementet relativt til sitt normale sted */
-  overflow: hidden;
+  overflow: hidden; /*Hindrer utstikking*/
   top: 50%; /* Plasserer toppen av elementet 50% fra toppen av overordnet element */
   left: 50%; /* Plasserer venstre side av elementet 50% fra venstre side av overordnet element */
   transform: translateX(-50%); /* Senterer elementet horisontalt */
@@ -69,20 +69,20 @@ body {
 
 /* H1-stilen brukes på alle H1-elementer på siden */
 h1 {
-  text-align: center;
+  text-align: center; /* Sentrerer teksten horisontalt innenfor elementet */
   text-shadow: 2px 2px 2px rgb(37, 108, 240); /* Skyggeeffekt på teksten */
-  letter-spacing: 1.5px;
+  letter-spacing: 1.5px; /* Avstanden mellom bokstavene */
 }
 
 /* Generell stil for H1- og p-elementer */
 h1, p {
-  color: white;
-  font-family: 'Inconsolata', monospace;
+  color: white; /* Tekstfargen */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
 }
 
 /* Overskrift-stilen brukes på elementer med klasse "overskrift" */
 .overskrift {
-  font-size: 40px;
+  font-size: 40px; /* Størrelsen på teksten */
 }
 
 /* P-stilen brukes på alle p-elementer på siden */
@@ -99,81 +99,82 @@ p {
 
 /* Li-stilen brukes på alle li-elementer på siden */
 li {
-  text-align: left;
-  color: white;
-  font-size: 28px;
-  font-family: 'Inconsolata', monospace;
+  text-align: left; /* Venstrejustering av teksten innenfor listeelementer */
+  color: white; /* Tekstfargen */
+  font-size: 28px; /* Størrelsen på teksten */
+  font-family: 'Inconsolata', monospace; /* Bruker 'Inconsolata' og generell monospace som skrifttype */
 }
 
 /* List-stilen brukes på elementer med klasse "list" */
 .list {
-  margin: 0 auto;
-  width: 97%;
+  margin: 0 auto; /* Setter automatisk margin til 0 på topp og bunn, og sentrerer horisontalt */
+  width: 97%; /* Bredden på elementet */
   background-color: rgba(0, 0, 0, 0.5); /* Bakgrunnsfargen til listen */
 }
 
 /* Tekstboks-stilen brukes på elementer med klasse "tekstboks" */
 .tekstboks {
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 97%;
-  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5); /* Bakgrunnsfargen til tekstboksen */
+  width: 97%; /* Bredden på tekstboksen */
+  margin: 0 auto; /* Setter automatisk margin til 0 på topp og bunn, og sentrerer horisontalt */
 }
 
 /* Lenkestil for lenker innenfor rammelementer med klasse "listframe" */
 .listframe a:link {
-  color: rgb(37, 108, 240);
+  color: rgb(37, 108, 240); /* Fargen på lenkene */
 }
 
 .listframe a:visited {
-  color: rgb(37, 108, 240);
+  color: rgb(37, 108, 240); /* Fargen på besøkte lenker */
 }
 
 .listframe a:hover {
-  color: #f2f2f2;
+  color: #f2f2f2; /* Fargeendring ved hover-effekt på lenker */
 }
 
 /* Fremvisningsbilde-stilen brukes på elementer med klasse "fremvisningsbilde" */
 .fremvisningsbilde {
-  height: 400px;
-  width: 700px;
+  height: 400px; /* Høyden på bildet */
+  width: 700px; /* Bredden på bildet */
   border: outset rgb(37, 108, 240) 2px; /* Stilen for rammen rundt bildet */
-  margin: 20px;
+  margin: 20px; /* Margin rundt bildet */
 }
 
 /* Bunntekst-stilen brukes på elementer med klasse "bunntekst" */
 .bunntekst {
-  padding-bottom: -10px;
-  padding-top: 10px;
-  text-align: center !important; /* Senterer teksten horisontalt */
-  bottom: 0px;
-  margin: 0 auto;
-  font-size: 32px;
-  background-color: rgba(0, 0, 0, 0.5);
-  width: 97%;
+  padding-bottom: -10px; /* Bunn padding med negativ verdi */
+  padding-top: 10px; /* Top padding */
+  text-align: center !important; /* Senterer teksten horisontalt, viktig for å overstyre andre stiler */
+  bottom: 0px; /* Plasserer bunnen av elementet 0 piksler fra bunnen av overordnet element */
+  margin: 0 auto; /* Setter automatisk margin til 0 på topp og bunn, og sentrerer horisontalt */
+  font-size: 32px; /* Størrelsen på teksten */
+  background-color: rgba(0, 0, 0, 0.5); /* Bakgrunnsfargen til bunnteksten */
+  width: 97%; /* Bredden på bunnteksten */
   border: 4px solid rgb(37, 108, 240); /* Stilen for bunntekstens kant */
   border-bottom: none !important; /* Ingen kant i bunnen */
-  border-style: inset;
+  border-style: inset; /* Stilen på kanten av elementet */
 }
 
 /* Høyre-stilen brukes til å plassere elementer til høyre, som i dette tilfellet er bilder */
 .høyre {
-  float: right;
+  float: right; /* Flyter elementet til høyre innenfor overordnet element */
 }
 
 /* Venstre-stilen brukes til å plassere elementer til venstre, som i dette tilfellet er bildet */
 .venstre {
-  float: left;
+  float: left; /* Flyter elementet til venstre innenfor overordnet element */
 }
 
 /* Lenkestil for lenker med klasse "kildelink" */
 .kildelink:link {
-  color: rgb(37, 108, 240);
+  color: rgb(37, 108, 240); /* Fargen på lenkene */
 }
 
 .kildelink:visited {
-  color: rgb(37, 108, 240);
+  color: rgb(37, 108, 240); /* Fargen på besøkte lenker */
 }
 
 .kildelink:hover {
-  color: #f2f2f2;
+  color: #f2f2f2; /* Fargeendring ved hover-effekt på lenker */
 }
+

@@ -52,11 +52,13 @@
 body {
   background-color: rgb(5, 15, 27); /* Bakgrunnsfargen til nettsiden */
   background-image: repeating-linear-gradient(45deg, transparent, transparent 10px, #082b5c 10px, #082b5c 20px); /*Legger til striper i bakgrunnen*/
+  margin: 0; /* Setter margin til 0 for body-elementet */
+  padding: 0; /* Setter padding til 0 for body-elementet */
 }
 
 /* Hovedtittel-stilen brukes på den ene og viktigste overskriften på siden */
 .hovedtittel {
-  position: absolute; /* Posisjonerer elementet absolutt innenfor sitt nærmeste posisjonerte (ikke statiske) overordnede element */
+  position: absolute; /* Elementet tegnes opp på en absolutt posisjon i forhold til et posisjonert element det er inni */
   font-size: 60px; /* Størrelsen på teksten */
   background-color: rgba(0, 0, 0, 0.842); /* Bakgrunnsfargen til overskriften */
   top: 50%; /* Plasserer toppen av elementet 50% fra toppen av overordnet element */
